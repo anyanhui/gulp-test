@@ -1,0 +1,23 @@
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cdnify": "^1.0.7",
+    "gulp-clean": "^0.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rev": "^8.1.1",
+    "gulp-rev-collector": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}
