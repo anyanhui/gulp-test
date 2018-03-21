@@ -1,8 +1,9 @@
 @base-color:#f2f2f2;
+@imgurl: "../images";
 body {
     margin: 0;
     padding: 0;
-    background:@base-color;
+    background:@base-color url('@{imgurl}/1.png') top center no-repeat;
 }
 ul,li {
     list-style: none;
@@ -16,4 +17,19 @@ a {
 }
 p {
     font-size: 12px;
+    line-height:26px;
+    .p1{
+        color:red;
+    }
+    &:hover {
+        color: blue;
+    }
+}
+.animal {
+  background-color: black;
+  color: white;
+}
+.bear {
+  &:extend(.animal);
+  background-color: brown;
 }
